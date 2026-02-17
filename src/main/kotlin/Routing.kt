@@ -15,7 +15,7 @@ fun Application.configureRouting() {
         get("/") {
             val response = DataResponse<String?>(
                 status = "success",
-                message = "Service Cash Flows by ifs223051 - Yuri Pakpahan",
+                message = "Service Cash Flows by ifs223019 - Anny Klaudya Hutabarat",
                 data = null
             )
             call.respond(response)
